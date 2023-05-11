@@ -1,6 +1,6 @@
-# create-svelte
+Live Demo [Here](https://pointscalculator.pages.dev/)
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+# create-svelte
 
 ## Creating a project
 
