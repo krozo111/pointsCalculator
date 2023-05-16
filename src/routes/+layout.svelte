@@ -1,4 +1,5 @@
 <script>
+  import "./app.css";
   import Header from "./Header.svelte";
   import Test from "./Test.svelte";
 
@@ -10,6 +11,7 @@
     <Header />
     <Test />
     <slot />
+   
   </main>
 
   <footer>

@@ -211,7 +211,6 @@
     </fieldset>
     <fieldset>
       <h2 class="subtitle">Study in regional Australia</h2>
-  
       <ul class="list">
         <label>
           <label>
@@ -299,6 +298,17 @@
     }
     fieldset {
       border: none;
+      padding: 10px;
     }
+    p{
+    margin: 20px;
+}
+ul {
+  margin-left: 30px;
+}
+h2{
+  margin-bottom: 10px;
+}
   </style>
+  
   
