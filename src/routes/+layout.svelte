@@ -1,14 +1,15 @@
 <script>
   import Header from "./Header.svelte";
   import Test from "./Test.svelte";
-  import Suma from "./Suma.svelte";
+
   import "./styles.css";
 </script>
 
 <div class="app">
   <main>
+    <Header />
     <Test />
-   <slot />
+    <slot />
   </main>
 
   <footer>

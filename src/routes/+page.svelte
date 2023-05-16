@@ -1,5 +1,3 @@
-<script>
-    import Suma from "./Suma.svelte";
-</script>
+<h1>main page</h1>
 
-<Suma />
+<p>Some info here...but soon.</p>
