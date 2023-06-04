@@ -1,6 +1,6 @@
 <script>
   import { page } from "$app/stores";
-  import IMAGES from "../lib/images/constants";
+  import IMAGES from "../constants";
   import github from "$lib/images/github.svg";
 </script>
 
