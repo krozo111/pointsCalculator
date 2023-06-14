@@ -15,7 +15,8 @@
   </main>
 
   <footer>
-    <p>visit <a href="https://instagram.com">Instagram</a> mas info</p>
+    Created by <a class="me" href="/about"> Jorge Corzo </a> ❤️ with
+    <span class="svelte">Svelte</span>
   </footer>
 </div>
 
@@ -38,16 +39,26 @@
   }
 
   footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 12px;
-  }
+		font-size: 16px;
+		font-weight: 400;
+		padding: 30px 0;
 
-  footer a {
-    font-weight: bold;
-  }
+		text-align: center;
+		width: 100%;
+	}
+
+
+	footer a {
+		text-decoration: none;
+		color: #4158d0;
+	}
+	footer .svelte {
+		color: orange;
+	}
+
+	footer .me {
+		color: orange;
+	}
 
   @media (min-width: 480px) {
     footer {
