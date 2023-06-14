@@ -53,6 +53,7 @@
     apply for this visa
   </p>
 
+  <div class="calculator">
   <Visa bind:valueVisa />
   <Age bind:valueAge />
   <English bind:valueEnglish />
@@ -64,7 +65,7 @@
   <Naati bind:valueNaati />
   <Regional bind:valueRegional />
   <Partner bind:valuePartner />
-
+</div>
   <h1>Total Points is: {result}</h1>
 </section>
 
@@ -82,4 +83,7 @@
   p {
     margin: 20px;
   }
+
+
+
 </style>
