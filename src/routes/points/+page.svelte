@@ -12,6 +12,7 @@
   import Py from "$lib/components/py.svelte";
   import Naati from "$lib/components/naati.svelte";
   import Regional from "$lib/components/regional.svelte";
+  import data from "$lib/data.json";
 
   let valueAge = 0;
   let valueVisa = 0;
@@ -41,7 +42,7 @@
 </script>
 
 <svelte:head>
-  <title>Points Calculator</title>
+  <title>{data.title}</title>
   <meta name="PointsCalculator" content="PointsCalculator" />
 </svelte:head>
 
@@ -53,7 +54,10 @@
     apply for this visa
   </p>
 
-  <div class="calculator">
+  <div class="sticky">
+    <h1>{result} Points</h1>
+  </div>
+
   <Visa bind:valueVisa />
   <Age bind:valueAge />
   <English bind:valueEnglish />
@@ -65,8 +69,10 @@
   <Naati bind:valueNaati />
   <Regional bind:valueRegional />
   <Partner bind:valuePartner />
-</div>
-  <h1>Total Points is: {result}</h1>
+
+  
+    <h1>Total Points is: {result}</h1>
+
 </section>
 
 <style>
@@ -84,6 +90,14 @@
     margin: 20px;
   }
 
+  div.sticky {
+    color: orange;
+    display: flex;
+    margin-left: 300px;  
+    justify-content: end;
+    position: sticky;
+    top: 1px;
+    bottom: 2px;
 
-
+  }
 </style>

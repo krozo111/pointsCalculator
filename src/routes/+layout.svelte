@@ -2,7 +2,6 @@
   import "./app.css";
   import Header from "$lib/components/Header.svelte";
   import Test from "./Test.svelte";
-
   import "./styles.css";
 </script>
 
