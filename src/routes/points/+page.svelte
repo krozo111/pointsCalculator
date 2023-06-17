@@ -70,9 +70,7 @@
   <Regional bind:valueRegional />
   <Partner bind:valuePartner />
 
-  
-    <h1>Total Points is: {result}</h1>
-
+  <h1>Total Points is: {result}</h1>
 </section>
 
 <style>
@@ -93,11 +91,10 @@
   div.sticky {
     color: orange;
     display: flex;
-    margin-left: 300px;  
+    margin-left: 300px;
     justify-content: end;
     position: sticky;
     top: 1px;
     bottom: 2px;
-
   }
 </style>
