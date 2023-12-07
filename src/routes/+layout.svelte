@@ -5,20 +5,20 @@
 </script>
 
 <svelte:head>
-  <meta name="color-scheme" content="s" />
-  <link rel="stylesheet" href="s" />
+
+	<title>Main Page </title>
 </svelte:head>
 
 <div class="app">
   <main>
     <Header />
     <slot />
+    <footer>
+      Created by <a class="me" href="/about"> Jorge Corzo </a> with ❤️ 
+    </footer>
   </main>
 
-  <footer>
-    Created by <a class="me" href="/about"> Jorge Corzo </a> ❤️ with
-    <span class="svelte">Svelte</span>
-  </footer>
+
 </div>
 
 <style>
@@ -52,9 +52,7 @@
     text-decoration: none;
     color: #4158d0;
   }
-  footer .svelte {
-    color: orange;
-  }
+
 
   footer .me {
     color: orange;

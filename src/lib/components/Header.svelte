@@ -1,6 +1,6 @@
 <script>
   import { page } from "$app/stores";
-  import {IMAGES} from "../constants";
+  import { IMAGES } from "../constants";
   import github from "$lib/images/github.svg";
 </script>
 
@@ -14,9 +14,6 @@
     <ul>
       <li aria-current={$page.url.pathname === "/" ? "page" : undefined}>
         <a href="/">Home</a>
-      </li>
-      <li aria-current={$page.url.pathname === "/points" ? "page" : undefined}>
-        <a href="/points">Points Calculator</a>
       </li>
       <li aria-current={$page.url.pathname === "/about" ? "page" : undefined}>
         <a href="/about">About</a>
@@ -58,9 +55,8 @@
   nav {
     display: flex;
     justify-content: center;
-	background-color: transparent;
+    background-color: transparent;
   }
-
 
   ul {
     position: relative;
